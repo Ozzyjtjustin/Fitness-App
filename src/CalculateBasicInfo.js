@@ -33,15 +33,6 @@ bmrCalc=()=>{
         <div className="calcButton">
           <button onClick={()=>this.bmrCalc()} style={{backgroundColor: '#f3f3f369', borderRadius: '5px', borderColor: '#f3f3f321'}}>Calculate BMR</button>
         </div>
-        <div className="calcButton">
-          <button onClick={()=>this.bmrCalc()} style={{backgroundColor: '#f3f3f369', borderRadius: '5px', borderColor: '#f3f3f321'}}>Calculate additional calories</button>
-        </div>
-        <div className="calcButton">
-          <button onClick={()=>this.bmrCalc()} style={{backgroundColor: '#f3f3f369', borderRadius: '5px', borderColor: '#f3f3f321'}}>Calculate Macros</button>
-        </div>
-        <div className="calcButton">
-          <button onClick={()=>this.bmrCalc()} style={{backgroundColor: '#f3f3f369', borderRadius: '5px', borderColor: '#f3f3f321'}}>Calculate something else</button>
-        </div>
       </div>
       {this.state.bmr &&
       <h4 style={{backgroundColor: '#f3f3f34d', textAlign: 'center'}}>
